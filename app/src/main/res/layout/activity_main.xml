@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cat_background"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/question_1_container"
+            style="@style/question_container_style">
+
+
+            <TextView
+                style="@style/Big_question_style"
+                android:paddingBottom="20dp"
+                android:text="@string/heading" />
+
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_1" />
+
+
+            <LinearLayout style="@style/checkbox_group_layout_style">
+
+                <CheckBox
+                    android:id="@+id/question_1_first_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/food" />
+
+                <CheckBox
+                    android:id="@+id/question_1_second_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/water" />
+
+                <CheckBox
+                    android:id="@+id/question_1_third_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/trash_bin" />
+
+                <CheckBox
+                    android:id="@+id/question_1_fourth_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/scratching_post_tree" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_2_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_2" />
+
+            <LinearLayout style="@style/checkbox_group_layout_style">
+
+                <CheckBox
+                    android:id="@+id/question_2_first_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/a_your_cat_needs_to_engage_in_her_natural_predatory_behavior_and_have_control_over_social_interactions" />
+
+                <CheckBox
+                    android:id="@+id/question_2_second_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/b_use_your_hands_and_feet_as_toys_during_play" />
+
+                <CheckBox
+                    android:id="@+id/question_2_third_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/c_never_use_string_type_products_to_play_with_your_cat" />
+
+                <CheckBox
+                    android:id="@+id/question_2_fourth_checkbox"
+                    style="@style/question_checkbox_style"
+                    android:text="@string/d_you_can_reward_your_cat_with_treats_to_provide_positive_reinforcement_for_appropriate_play" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/question_3_container"
+            style="@style/question_container_style">
+
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_3" />
+
+
+            <EditText
+                android:id="@+id/question_3_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:hint="   one word                                                " />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/question_4_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_4" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/persian" />
+
+
+            <EditText
+                android:id="@+id/question_4_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:hint="   one word                                               " />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/question_5_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_5" />
+
+            <RadioGroup
+                android:id="@+id/question_5_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question_5_first_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/territorial_natural_behavior" />
+
+                <RadioButton
+                    android:id="@+id/question_5_second_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/to_make_you_angry_and_upset" />
+
+                <RadioButton
+                    android:id="@+id/question_5_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/because_she_feels_safe" />
+
+                <RadioButton
+                    android:id="@+id/question_5_fourth_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/none_of_the_above" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_6_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_6" />
+
+            <RadioGroup
+                android:id="@+id/question_6_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question_6_first_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/the_color_of_the_litter_box" />
+
+                <RadioButton
+                    android:id="@+id/question_6_second_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/size_of_the_litter_box" />
+
+
+                <RadioButton
+                    android:id="@+id/question_6_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/the_type_of_litter_used" />
+
+                <RadioButton
+                    android:id="@+id/question_6_fourth_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="@string/mangement_of_the_litter_box" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:onClick="checkQuiz"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+
+</ScrollView>

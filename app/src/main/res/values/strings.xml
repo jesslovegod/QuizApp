@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="heading">How much do you know about cats? </string>
+    <string name="question_1">1. What is the basic supplies for your cat?</string>
+    <string name="food">Food</string>
+    <string name="water">Water</string>
+    <string name="trash_bin">Trash Bin</string>
+    <string name="scratching_post_tree">Scratching Post/Tree</string>
+    <string name="question_2">2. What is true about playing with your cat?</string>
+    <string name="a_your_cat_needs_to_engage_in_her_natural_predatory_behavior_and_have_control_over_social_interactions">a. Your cat needs to engage in her natural predatory behavior and have control over social interactions</string>
+    <string name="b_use_your_hands_and_feet_as_toys_during_play">b. Use your hands and feet as toys during play.</string>
+    <string name="c_never_use_string_type_products_to_play_with_your_cat">c. Never use string-type products to play with your cat.</string>
+    <string name="d_you_can_reward_your_cat_with_treats_to_provide_positive_reinforcement_for_appropriate_play">d.You can reward your cat with treats to provide positive reinforcement for appropriate play.</string>
+    <string name="question_3">3. How often should you take your cat to the veterinarian?</string>
+    <string name="question_4">4. Do you know this cat ?</string>
+    <string name="question_5">5. Which is a reason for your cat to spray/scent mark?</string>
+    <string name="territorial_natural_behavior">Territorial/Natural Behavior</string>
+    <string name="to_make_you_angry_and_upset">To make you angry and upset</string>
+    <string name="because_she_feels_safe">Because she feels safe</string>
+    <string name="none_of_the_above">None of the above</string>
+    <string name="question_6">6. What should you not to take into consideration when designing the optimal litter box for your cat?</string>
+    <string name="size_of_the_litter_box">Size of the litter box</string>
+    <string name="the_type_of_litter_used">The type of litter used</string>
+    <string name="mangement_of_the_litter_box">Mangement of the litter box</string>
+    <string name="order_summary">order summary</string>
+    <string name="order">order</string>
+    <string name="the_color_of_the_litter_box">The color of the litter_box</string>
+
+
+</resources>
