@@ -27,5 +27,5 @@ View items: Checkboxes, radio buttons and EditTex
 
 
 ### Screen Shot
-![image](https://user-images.githubusercontent.com/6055821/61642454-7c009280-acd3-11e9-83ed-07d9c1a26ef6.png)
+![image](https://user-images.githubusercontent.com/6055821/61683091-ccfd9e80-ad46-11e9-9023-4bb2899b26bb.png)
 
